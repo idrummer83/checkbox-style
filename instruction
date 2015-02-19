@@ -1,0 +1,37 @@
+from http://kviku.ru/
+
+
+--------------- html code ------------------
+
+<div class="left-check">
+   <input type="checkbox" name="AviaSearchForm[range]" id="main-form-days">
+   <label for="main-form-days">
+       <span></span>hohoho
+   </label>
+</div>
+
+-------------- end --------------------
+
+----------------- css ----------------------
+
+ input[type="checkbox"] {
+display: none;   //  -- hide checkbox
+}
+
+.form input[type="checkbox"]+ label span {
+display: inline-block;
+vertical-align: middle;
+width: 14px;
+height: 14px;
+margin: -1px 4px 0 0;
+border-radius: 2px;
+background-color: #fff;
+cursor: pointer;
+}
+
+input, textarea, select {
+vertical-align: middle;
+color: #333;
+}
+
+--------------- end ----------------
